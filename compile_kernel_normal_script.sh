@@ -36,7 +36,7 @@ export PATH=$(pwd)/toolchain/bin:$PATH
 
 export CROSS_COMPILE=$(pwd)/toolchain/bin/aarch64-linux-android-
 
-make ARCH=$ARCH CROSS_COMPILE=toolchain/bin/arm-eabi- rosy-perf_defconfig
+make ARCH=$ARCH CROSS_COMPILE=toolchain/bin/arm-eabi- rosy_defconfig
 
 echo "***************!!!!! Make -j7!!!!!********************"
 make -j7

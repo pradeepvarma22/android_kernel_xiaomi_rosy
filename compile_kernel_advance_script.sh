@@ -50,7 +50,7 @@ export CROSS_COMPILE=$(pwd)/toolchain/bin/aarch64-linux-android-
 echo ""
 echo "#####################rosy_defconfig#####################"
 echo ""
-make ARCH=arm64 O=$(pwd)/out rosy-perf_defconfig
+make ARCH=arm64 O=$(pwd)/out rosy_defconfig
 make ARCH=arm64 O=$(pwd)/out -j7
 export KBUILD_BUILD_USER="7"
 export KBUILD_BUILD_HOST="Pradeep"
